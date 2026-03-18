@@ -35,11 +35,11 @@ export default function Page() {
         options: {
           emailRedirectTo:
             process.env.NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL ||
-            `${window.location.origin}/protected`,
+            `${window.location.origin}/dashboard`,
         },
       })
       if (error) throw error
-      router.push('/protected')
+      router.push('/dashboard')
     } catch (error: unknown) {
       setError(error instanceof Error ? error.message : 'An error occurred')
     } finally {
@@ -48,7 +48,7 @@ export default function Page() {
   }
 
   return (
-    <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10">
+    <div className="flex min-h-[550px] w-full items-center justify-center p-6 md:p-10">
       <div className="w-full max-w-sm">
         <div className="flex flex-col gap-6">
           <Card>
@@ -66,7 +66,7 @@ export default function Page() {
                     <Input
                       id="email"
                       type="email"
-                      placeholder="m@example.com"
+                      placeholder="kumuthu@example.com"
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}

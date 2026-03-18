@@ -9,7 +9,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'TravelHub - Discover Travel Experiences',
   description: 'Find and book unique travel experiences from creators around the world',
-  generator: 'v0.app',
   icons: {
     icon: [
       {

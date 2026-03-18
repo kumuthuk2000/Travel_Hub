@@ -157,10 +157,6 @@ CREATE TABLE likes (
 - Message system between users
 - Admin dashboard
 
-## Support
-
-For issues or questions, create an issue in your repository or visit [Vercel Support](https://vercel.com/help).
-
 ## License
 
 MIT License - feel free to use this project as a template for your own applications.

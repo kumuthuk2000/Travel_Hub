@@ -71,7 +71,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; 2024 TravelHub. All rights reserved.</p>
+          <p>&copy; 2026 TravelHub. All rights reserved.</p>
         </div>
       </div>
     </footer>

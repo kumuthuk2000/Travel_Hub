@@ -144,24 +144,8 @@ CREATE TABLE likes (
 4. JWT token stored securely in HTTP-only cookie via middleware
 5. Protected routes require active session
 
-## Deployment
-
-The project is ready to deploy to Vercel:
-
-1. Push code to GitHub
-2. Connect your GitHub repository to Vercel
-3. Configure environment variables in Vercel settings
-4. Deploy with a single click
-
-For more deployment options, see [Vercel Documentation](https://vercel.com/docs).
-
-## Development Guidelines
-
-- Use TypeScript for type safety
-- Follow React best practices with functional components
-- Use Tailwind CSS for styling
-- Always use RLS policies in Supabase for data security
-- Test authentication flows thoroughly
+## Demo
+<a href="travel-hub-7qw7417qs-kumuthuk2000s-projects.vercel.app"> Live Demo </a>
 
 ## Features for Future Enhancement
 

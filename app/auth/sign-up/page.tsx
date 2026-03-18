@@ -42,7 +42,7 @@ export default function Page() {
         options: {
           emailRedirectTo:
             process.env.NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL ||
-            `${window.location.origin}/protected`,
+            `${window.location.origin}/auth/login`,
         },
       })
       if (error) throw error
@@ -55,7 +55,7 @@ export default function Page() {
   }
 
   return (
-    <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10">
+    <div className="flex min-h-[550px] w-full items-center justify-center p-6 md:p-5">
       <div className="w-full max-w-sm">
         <div className="flex flex-col gap-6">
           <Card>

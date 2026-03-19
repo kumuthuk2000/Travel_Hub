@@ -56,8 +56,14 @@ export function CreateListingForm() {
       ])
 
       if (insertError) throw insertError
-
-      router.push('/dashboard')
+      setFormData({
+        title: '',
+        location: '',
+        description: '',
+        price: '',
+        image_url: '',
+      })
+      router.refresh()
     } catch (err: any) {
       setError(err.message || 'Failed to create listing')
     } finally {

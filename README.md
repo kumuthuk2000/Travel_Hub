@@ -145,7 +145,7 @@ CREATE TABLE likes (
 5. Protected routes require active session
 
 ## Demo
-<a href="https://travel-hub-7qw7417qs-kumuthuk2000s-projects.vercel.app/"> Live Demo </a>
+   <a href="https://travel-hub-web.vercel.app/ "> Live Demo </a>
 
 ## Features for Future Enhancement
 

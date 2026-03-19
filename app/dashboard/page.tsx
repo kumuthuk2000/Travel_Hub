@@ -50,7 +50,7 @@ export default function Dashboard() {
 
         if (listingsError) throw listingsError
         setListings(userListings || [])
-        window.location.reload();
+
       } catch (err: any) {
         setError(err.message || 'Failed to load listings')
       } finally {
